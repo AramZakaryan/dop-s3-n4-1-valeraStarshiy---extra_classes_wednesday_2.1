@@ -9,6 +9,7 @@ type PropsType = { value: string, onChange: (e: ChangeEvent<HTMLInputElement>) =
 // If change value on input Task_1 component not re-render
 
 export const Task_1 = () => {
+
     console.log("Task_1 render")
 
     return (
